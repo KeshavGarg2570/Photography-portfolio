@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography Portfolio</title>
+  <style>
+    /* General Styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #ff6f61;
+    }
+
+    /* Portfolio Section */
+    #portfolio {
+      background-color: white;
+      padding: 40px 0;
+    }
+
+    #portfolio h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    #portfolio p {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .category-gallery {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .category {
+      width: 23%;
+      margin-bottom: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+
+    .category img {
+      width: 100%;
+      height: auto;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .category h3 {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+
+    .category p {
+      font-size: 16px;
+      color: #777;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+    .category:hover{
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <section id="portfolio">
+    <div class="container">
+      <h1>My Photography Portfolio</h1>
+      <p>Explore my work in different categories. Click on each category to view more.</p>
+      
+      <!-- Portfolio Categories -->
+      <div class="category-gallery">
+        <div class="category">
+          <img src="https://wallpapercave.com/wp/bvJq0ra.jpg" alt="Landscape Photography">
+          <h3>Landscape</h3>
+          <p>Beautiful landscapes from around the world.</p>
+        </div>
+        <div class="category">
+          <img src="https://img.freepik.com/premium-photo/goal-success-level-up-with-pathway-line-step-route-mountain-peak-human-performance-limit-concepts-growth-mindset-motivation-generative-ai-illustrator_993599-1932.jpg?w=826" alt="Portrait Photography">
+          <h3>Portrait</h3>
+          <p>Stunning portraits that capture emotion and personality.</p>
+        </div>
+        <div class="category">
+          <img src="http://www.chiesadicristofe.org/wp-content/uploads/2022/04/Nashville-TN-Wedding-Venue-650x435.jpg" alt="Wedding Photography">
+          <h3>Wedding</h3>
+          <p>Timeless wedding moments that last forever.</p>
+        </div>
+        <div class="category">
+          <img src="https://static.wixstatic.com/media/7bf491_1540383a382d421d8207ccbfcb704b1d.jpg" alt="Event Photography">
+          <h3>Event</h3>
+          <p>Capturing the essence of every special event.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Photography Portfolio | Designed by Your Name</p>
+  </footer>
+</body>
+</html>
